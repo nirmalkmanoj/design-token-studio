@@ -21,10 +21,10 @@ On a partial day, document the actual stopping point. Keep unfinished work clear
 
 ## Current progress
 
-- Next: **Day 2 — close the semantic preview interface session**
-- Status: Day 2's semantic interface and accessibility practice are verified. Session documentation and the Git/GitHub checkpoint remain. No GitHub remote is configured yet.
-- Last completed day: Day 1.
-- Resume at: Review the Day 2 documentation and diff, make the local Git checkpoint, then establish the GitHub repository visibility and remote.
+- Next: **Day 3 — layout and spacing**
+- Status: Day 2's semantic interface, practice checks, documentation, local checkpoint, and first GitHub push are verified. The public repository is `nirmalkmanoj/design-token-studio`.
+- Last completed day: Day 2.
+- Resume at: Arrange the controls and preview using guided Grid/Flexbox snippets, then inspect the box model.
 - Blockers / concepts to revisit: A local development server and starting/stopping its process remain to be practiced when needed.
 
 Update this block at the end of each sitting. Record actual dates inside session notes; leave these day numbers unchanged.
@@ -53,7 +53,7 @@ Schedule: **daily at 2:00 PM, Asia/Kolkata (IST)**, in the existing learning tas
 ### Day 2 — semantic preview interface
 - [x] **Build:** Add navigation, a card, buttons, a badge, and labeled form controls. Learn elements, attributes, nesting, landmarks, heading hierarchy, links/buttons, input types, and native validation.
 - [x] **Practice:** Correct one inappropriate element, check keyboard order and labels, and explain image alternatives if the preview includes an image.
-- [ ] **Close:** Document and commit; establish the GitHub repository/visibility and push when available.
+- [x] **Close:** Document and commit; establish the GitHub repository/visibility and push when available.
 
 ### Day 3 — layout and spacing
 - [ ] **Build:** Arrange the controls and preview using Grid/Flexbox. Learn normal flow, box model, dimensions, spacing, and selectors in the actual layout.

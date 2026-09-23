@@ -16,5 +16,6 @@
 | HTML nesting | Found and corrected a form that accidentally crossed from the controls section into the preview section | Applied |
 | Keyboard order and focus | Tabbed through links, inputs, and buttons in DOM order and confirmed visible focus identification | Applied |
 | Image alternatives | The current preview has no image; discussed descriptive alternatives for meaningful images and empty alternatives for decorative images | Explained |
+| Git remotes and first push | Configured the repository author with GitHub's no-reply address, corrected unpublished commit authors, added `origin`, and pushed `main` to the public GitHub repository | Applied |
 
 Statuses reflect recorded exercises, not a claim of complete mastery.

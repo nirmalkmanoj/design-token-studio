@@ -37,4 +37,4 @@ The saved HTML was inspected after each structural correction. Nirmal confirmed 
 
 ## Git checkpoint and next step
 
-The Day 2 local commit and GitHub publication are still pending at the time of this note. Review the diff, create the checkpoint, choose public or private GitHub visibility, and configure the remote before pushing. Then begin Day 3 with the controls/preview layout and box model.
+The Day 2 code and documentation checkpoint is commit `6d1144d` (“Build semantic token interface”). Git was configured to use GitHub's no-reply author address, and both unpublished commits were corrected before publication. The public repository is `https://github.com/nirmalkmanoj/design-token-studio`; `origin/main` was created and the push was verified. Next: begin Day 3 with the controls/preview layout and box model.
