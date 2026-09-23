@@ -21,11 +21,11 @@ On a partial day, document the actual stopping point. Keep unfinished work clear
 
 ## Current progress
 
-- Next: **Day 1 — first working page**
-- Status: First page, CSS link, shared color and spacing tokens are working. Session notes and README are written. Git repository and first checkpoint are pending.
-- Last completed day: None.
-- Resume at: Learn the first Git command, initialize the repository, inspect changes, and save the first checkpoint.
-- Blockers / concepts to revisit: Terminal and local development server have not yet been practiced.
+- Next: **Day 2 — close the semantic preview interface session**
+- Status: Day 2's semantic interface and accessibility practice are verified. Session documentation and the Git/GitHub checkpoint remain. No GitHub remote is configured yet.
+- Last completed day: Day 1.
+- Resume at: Review the Day 2 documentation and diff, make the local Git checkpoint, then establish the GitHub repository visibility and remote.
+- Blockers / concepts to revisit: A local development server and starting/stopping its process remain to be practiced when needed.
 
 Update this block at the end of each sitting. Record actual dates inside session notes; leave these day numbers unchanged.
 
@@ -46,13 +46,13 @@ Schedule: **daily at 2:00 PM, Asia/Kolkata (IST)**, in the existing learning tas
 ## Project 1 — design-token studio in HTML, CSS, JavaScript
 
 ### Day 1 — first working page
-- [ ] **Build:** Inspect the editor/setup, create a project folder and HTML/CSS/JS starter files, and run a minimal page from explained snippets. Learn paths, tabs, terminal, localhost, and start/stop commands as needed.
+- [x] **Build:** Inspect the editor/setup, create a project folder and HTML/CSS/JS starter files, and run a minimal page from explained snippets. Learn paths, tabs, terminal, localhost, and start/stop commands as needed.
 - [x] **Practice:** Find and change a heading, connect one CSS rule, and inspect the browser result. Explain each file's role.
-- [ ] **Close:** Write day-1 notes and a README, initialize Git with a first checkpoint, and record day 2's starting point.
+- [x] **Close:** Write day-1 notes and a README, initialize Git with a first checkpoint, and record day 2's starting point.
 
 ### Day 2 — semantic preview interface
-- [ ] **Build:** Add navigation, a card, buttons, a badge, and labeled form controls. Learn elements, attributes, nesting, landmarks, heading hierarchy, links/buttons, input types, and native validation.
-- [ ] **Practice:** Correct one inappropriate element, check keyboard order and labels, and explain image alternatives if the preview includes an image.
+- [x] **Build:** Add navigation, a card, buttons, a badge, and labeled form controls. Learn elements, attributes, nesting, landmarks, heading hierarchy, links/buttons, input types, and native validation.
+- [x] **Practice:** Correct one inappropriate element, check keyboard order and labels, and explain image alternatives if the preview includes an image.
 - [ ] **Close:** Document and commit; establish the GitHub repository/visibility and push when available.
 
 ### Day 3 — layout and spacing

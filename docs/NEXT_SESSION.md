@@ -1,5 +1,5 @@
 # Next learning step
 
-Finish Day 1's Git and terminal checkpoint before moving to the semantic preview interface. The page and CSS exercises were completed, but no Git repository or commit exists yet. Guide Nirmal through the first command and explain it before they run it. The local server workflow may be introduced when needed; do not imply it was already practiced.
+Day 2's semantic interface and practice checks are complete. Review the Day 2 session note and Git diff, then create the local checkpoint. Establish whether the GitHub repository should be public or private before creating or publishing the remote.
 
-After a verified checkpoint, update the Day 1 checklist and begin Day 2 with semantic page structure and labeled controls. Continue using short explained snippets that Nirmal implements.
+After Day 2 closes, begin Day 3 by arranging the controls and preview with Grid/Flexbox. Explain each short snippet and its exact file location, then wait while Nirmal implements it. A local development server has not yet been used; introduce it when the project needs it.

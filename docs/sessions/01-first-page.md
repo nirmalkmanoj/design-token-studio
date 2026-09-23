@@ -6,7 +6,7 @@ Activity: September 20–22, 2026. The page was built across several sittings.
 
 The goal was to create the first page, understand its structure, connect CSS, and practice a reusable design token. `index.html` now displays a heading, paragraph, and sample button. The heading and button background use the same color token. Button padding uses two spacing tokens. Nirmal confirmed the page displays, that changing the color token updates both elements, and that increasing horizontal padding makes the button wider.
 
-The page is opened directly from the filesystem in a browser. No local server, JavaScript behavior, Git repository, commit, or remote push has been verified yet.
+The page is opened directly from the filesystem in a browser. A local server, JavaScript behavior, and remote push have not been verified yet. The first local Git commit was verified after these initial notes were drafted.
 
 ## Concepts learned in the project
 
@@ -66,4 +66,4 @@ Verified by Nirmal's reported browser checks: the heading appeared, the styleshe
 
 ## Git checkpoint and next step
 
-Git checkpoint: **pending**. No repository or commit exists yet. Next, guide Nirmal through the first Git command, inspect the result, and save the initial checkpoint. Then update the Day 1 checklist and start Day 2.
+Git checkpoint: **complete**. The first local commit, `e0712bb` (“Start Design Token Studio”), was verified along with a clean working tree immediately after the commit. The learner used `pwd`, `git init`, `git status`, `.gitignore`, `git add .`, and `git commit` with explanations. These follow-up progress-note edits were made after that commit and are not part of it yet. No GitHub remote or push is recorded. Next: Day 2's semantic interface.

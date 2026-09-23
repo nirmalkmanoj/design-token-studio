@@ -1,6 +1,6 @@
 # Design Token Studio — learning project
 
-This is the first project in the [learning plan](LEARNING_PLAN.md). The current page introduces a heading, sample button, a shared color token, and spacing tokens.
+This is the first project in the [learning plan](LEARNING_PLAN.md). The current page contains semantic navigation, labeled token controls with native validation, and a component-preview card. Shared color and spacing tokens provide its initial styling.
 
 ## Preview the current page
 
