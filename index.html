@@ -1,89 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8">
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0"
-    >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Design Token Studio</title>
     <link rel="stylesheet" href="styles.css">
-  </head>
+</head>
 
-  <body id="top">
+<body id="top">
     <header>
-      <a href="#top">Design Token Studio</a>
+        <a href="#top">Design Token Studio</a>
 
-      <nav aria-label="Main navigation">
-        <a href="#controls">Controls</a>
-        <a href="#preview">Preview</a>
-      </nav>
+        <nav aria-label="Main navigation">
+            <a href="#controls">Controls</a>
+            <a href="#preview">Preview</a>
+        </nav>
     </header>
 
     <main>
-      <h1>Build and preview your design tokens</h1>
-      <p>Explore colors, spacing, and typography.</p>
+        <h1>Build and preview your design tokens</h1>
+        <p>Explore colors, spacing, and typography.</p>
+        <div class="studio-layout">
+            <section id="controls">
+                <h2>Token controls</h2>
 
-      <section id="controls">
-        <h2>Token controls</h2>
+                <form>
+                    <div>
+                        <label for="primary-color">Primary color</label>
+                        <input id="primary-color" name="primary-color" type="color" value="#663399">
+                    </div>
 
-        <form>
-          <div>
-            <label for="primary-color">Primary color</label>
-            <input
-              id="primary-color"
-              name="primary-color"
-              type="color"
-              value="#663399"
-            >
-          </div>
+                    <div>
+                        <label for="button-spacing">Button spacing</label>
+                        <input id="button-spacing" name="button-spacing" type="range" min="8" max="40" value="32">
+                    </div>
 
-          <div>
-            <label for="button-spacing">Button spacing</label>
-            <input
-              id="button-spacing"
-              name="button-spacing"
-              type="range"
-              min="8"
-              max="40"
-              value="32"
-            >
-          </div>
+                    <div>
+                        <label for="base-font-size">Base font size</label>
+                        <input id="base-font-size" name="base-font-size" type="number" min="12" max="24" value="16"
+                            required>
+                    </div>
+                    <div class="form-actions">
+                        <button type="submit">Apply tokens</button>
+                        <button type="reset">Reset</button>
+                    </div>
+                </form>
+            </section>
+            <section id="preview">
+                <h2>Component preview</h2>
 
-          <div>
-            <label for="base-font-size">Base font size</label>
-            <input
-              id="base-font-size"
-              name="base-font-size"
-              type="number"
-              min="12"
-              max="24"
-              value="16"
-              required
-            >
-          </div>
+                <article>
+                    <span>New</span>
 
-          <button type="submit">Apply tokens</button>
-          <button type="reset">Reset</button>
-        </form>
-      </section>
+                    <h3>Design system foundations</h3>
 
-      <section id="preview">
-        <h2>Component preview</h2>
+                    <p>
+                        Create consistent interfaces using reusable colors,
+                        spacing, and typography.
+                    </p>
 
-        <article>
-          <span>New</span>
-
-          <h3>Design system foundations</h3>
-
-          <p>
-            Create consistent interfaces using reusable colors,
-            spacing, and typography.
-          </p>
-
-          <button type="button">Copy styles</button>
-        </article>
-      </section>
+                    <button type="button">Copy styles</button>
+                </article>
+            </section>
+        </div>
     </main>
-  </body>
+</body>
+
 </html>

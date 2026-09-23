@@ -17,5 +17,11 @@
 | Keyboard order and focus | Tabbed through links, inputs, and buttons in DOM order and confirmed visible focus identification | Applied |
 | Image alternatives | The current preview has no image; discussed descriptive alternatives for meaningful images and empty alternatives for decorative images | Explained |
 | Git remotes and first push | Configured the repository author with GitHub's no-reply address, corrected unpublished commit authors, added `origin`, and pushed `main` to the public GitHub repository | Applied |
+| Normal flow and layout containers | Observed that a wrapper alone leaves sections stacked, then turned that wrapper into a layout container | Applied |
+| CSS Grid | Created two equal `1fr` columns for Controls and Preview with a token-driven gap | Applied |
+| Flexbox | Used a column flex container for the form and a nested row flex container for its action buttons | Applied |
+| CSS selectors | Compared element selectors, reusable class selectors, unique ID selectors, and a comma-separated selector group | Applied |
+| Box model | Inspected Controls in Arc DevTools, verified 32px padding and a 1px border, temporarily changed padding to 8px, and distinguished internal padding from outside margin | Applied |
+| Code formatting | Used Cursor's Format Document command on CSS and HTML and verified that formatting changed source whitespace without changing browser behavior | Applied |
 
 Statuses reflect recorded exercises, not a claim of complete mastery.

@@ -21,10 +21,10 @@ On a partial day, document the actual stopping point. Keep unfinished work clear
 
 ## Current progress
 
-- Next: **Day 3 — layout and spacing**
-- Status: Day 2's semantic interface, practice checks, documentation, local checkpoint, and first GitHub push are verified. The public repository is `nirmalkmanoj/design-token-studio`.
+- Next: **Day 3 — close the layout and spacing session**
+- Status: Day 3's Grid/Flexbox layout, box-model inspection, temporary padding edit, and selector explanations are verified. Documentation review and the Git checkpoint remain.
 - Last completed day: Day 2.
-- Resume at: Arrange the controls and preview using guided Grid/Flexbox snippets, then inspect the box model.
+- Resume at: Review the Day 3 documentation and diff, then commit and push the layout checkpoint.
 - Blockers / concepts to revisit: A local development server and starting/stopping its process remain to be practiced when needed.
 
 Update this block at the end of each sitting. Record actual dates inside session notes; leave these day numbers unchanged.
@@ -56,8 +56,8 @@ Schedule: **daily at 2:00 PM, Asia/Kolkata (IST)**, in the existing learning tas
 - [x] **Close:** Document and commit; establish the GitHub repository/visibility and push when available.
 
 ### Day 3 — layout and spacing
-- [ ] **Build:** Arrange the controls and preview using Grid/Flexbox. Learn normal flow, box model, dimensions, spacing, and selectors in the actual layout.
-- [ ] **Practice:** Inspect a box in developer tools, alter its padding, and explain the difference between padding and margin.
+- [x] **Build:** Arrange the controls and preview using Grid/Flexbox. Learn normal flow, box model, dimensions, spacing, and selectors in the actual layout.
+- [x] **Practice:** Inspect a box in developer tools, alter its padding, and explain the difference between padding and margin.
 - [ ] **Close:** Save explained layout snippets, checks, and the Git checkpoint.
 
 ### Day 4 — responsive styling and tokens
