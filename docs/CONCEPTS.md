@@ -23,5 +23,14 @@
 | CSS selectors | Compared element selectors, reusable class selectors, unique ID selectors, and a comma-separated selector group | Applied |
 | Box model | Inspected Controls in Arc DevTools, verified 32px padding and a 1px border, temporarily changed padding to 8px, and distinguished internal padding from outside margin | Applied |
 | Code formatting | Used Cursor's Format Document command on CSS and HTML and verified that formatting changed source whitespace without changing browser behavior | Applied |
+| Predictable element sizing | Applied universal `border-box` so declared widths include padding and borders | Applied |
+| Flexible container width | Used `min()` and `calc()` to cap Header/Main at 1120px while preserving 16px viewport edges; explained automatic centering and the browser's default body margin | Applied |
+| Media queries | Used a desktop-first `max-width: 700px` condition to switch the Grid from two columns to one, and verified both 800px and 600px states | Applied |
+| Responsive units and fluid type | Used `rem`, `vw`, and `clamp()` to create a heading with minimum, fluid, and maximum sizes | Applied |
+| Typography inheritance | Defined body typography tokens, applied them through `body`, and explicitly inherited the font into native buttons and inputs | Applied |
+| Attribute selectors | Targeted only the number input with `input[type="number"]` and gave it a scalable width after its value became clipped | Applied |
+| Cascade and specificity | Inspected equal-specificity Grid declarations in DevTools and saw the later active media-query rule override the earlier desktop rule; selector strength remains a concept to reinforce | Explained |
+| Overflow diagnosis | Deliberately forced an 800px minimum width inside a 600px viewport, located the cause in DevTools, removed it, and verified the stacked layout | Applied |
+| Token impact tracing | Predicted and observed that changing `--space-medium` affected the Grid gap, panel padding, and button horizontal padding while leaving heading size unchanged | Applied |
 
 Statuses reflect recorded exercises, not a claim of complete mastery.

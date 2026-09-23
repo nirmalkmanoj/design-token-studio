@@ -1,11 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+
 :root {
     --color-primary: rebeccapurple;
     --space-small: 12px;
     --space-medium: 32px;
+    --font-family-body: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    --font-size-body: 1rem;
+    --line-height-body: 1.5;
+    --color-text: #24242e;
 }
 
 h1 {
     color: var(--color-primary);
+    font-size: clamp(2rem, 5vw, 3.5rem);
+    line-height: 1.1;
 }
 
 button {
@@ -39,4 +49,33 @@ form {
 .form-actions {
     display: flex;
     gap: var(--space-small);
+}
+
+header,
+main {
+    width: min(1120px, calc(100% - 32px));
+    margin-inline: auto;
+}
+
+body {
+    margin: 0;
+    font-family: var(--font-family-body);
+    font-size: var(--font-size-body);
+    line-height: var(--line-height-body);
+    color: var(--color-text);
+}
+
+button,
+input {
+    font: inherit;
+}
+
+input[type="number"] {
+    width: 5rem;
+}
+
+@media (max-width: 700px) {
+    .studio-layout {
+        grid-template-columns: 1fr;
+    }
 }

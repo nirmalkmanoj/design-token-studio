@@ -21,10 +21,10 @@ On a partial day, document the actual stopping point. Keep unfinished work clear
 
 ## Current progress
 
-- Next: **Day 4 — responsive styling and tokens**
-- Status: Day 3's Grid/Flexbox layout, box-model inspection, documentation, local checkpoint, and GitHub push are verified.
+- Next: **Day 4 — close the responsive styling session**
+- Status: Day 4's flexible container, responsive Grid, typography, overflow diagnosis, cascade inspection, and token prediction are verified. Documentation review and the Git checkpoint remain.
 - Last completed day: Day 3.
-- Resume at: Add flexible sizing and a narrow-screen layout, then introduce typography and responsive token behavior through guided snippets.
+- Resume at: Review the Day 4 documentation and diff, then commit and push the responsive styling checkpoint.
 - Blockers / concepts to revisit: A local development server and starting/stopping its process remain to be practiced when needed.
 
 Update this block at the end of each sitting. Record actual dates inside session notes; leave these day numbers unchanged.
@@ -61,8 +61,8 @@ Schedule: **daily at 2:00 PM, Asia/Kolkata (IST)**, in the existing learning tas
 - [x] **Close:** Save explained layout snippets, checks, and the Git checkpoint.
 
 ### Day 4 — responsive styling and tokens
-- [ ] **Build:** Add flexible sizing, a narrow-screen layout, typography, and initial CSS custom properties. Learn units, media queries, inheritance, cascade, and specificity.
-- [ ] **Practice:** Fix deliberate overflow and an overridden rule using browser Styles; predict which elements change when a spacing token changes.
+- [x] **Build:** Add flexible sizing, a narrow-screen layout, typography, and initial CSS custom properties. Learn units, media queries, inheritance, cascade, and specificity.
+- [x] **Practice:** Fix deliberate overflow and an overridden rule using browser Styles; predict which elements change when a spacing token changes.
 - [ ] **Close:** Record the diagnosis and token explanations; commit/push.
 
 ### Day 5 — first live color control
