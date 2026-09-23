@@ -21,10 +21,10 @@ On a partial day, document the actual stopping point. Keep unfinished work clear
 
 ## Current progress
 
-- Next: **Day 3 — close the layout and spacing session**
-- Status: Day 3's Grid/Flexbox layout, box-model inspection, temporary padding edit, and selector explanations are verified. Documentation review and the Git checkpoint remain.
-- Last completed day: Day 2.
-- Resume at: Review the Day 3 documentation and diff, then commit and push the layout checkpoint.
+- Next: **Day 4 — responsive styling and tokens**
+- Status: Day 3's Grid/Flexbox layout, box-model inspection, documentation, local checkpoint, and GitHub push are verified.
+- Last completed day: Day 3.
+- Resume at: Add flexible sizing and a narrow-screen layout, then introduce typography and responsive token behavior through guided snippets.
 - Blockers / concepts to revisit: A local development server and starting/stopping its process remain to be practiced when needed.
 
 Update this block at the end of each sitting. Record actual dates inside session notes; leave these day numbers unchanged.
@@ -58,7 +58,7 @@ Schedule: **daily at 2:00 PM, Asia/Kolkata (IST)**, in the existing learning tas
 ### Day 3 — layout and spacing
 - [x] **Build:** Arrange the controls and preview using Grid/Flexbox. Learn normal flow, box model, dimensions, spacing, and selectors in the actual layout.
 - [x] **Practice:** Inspect a box in developer tools, alter its padding, and explain the difference between padding and margin.
-- [ ] **Close:** Save explained layout snippets, checks, and the Git checkpoint.
+- [x] **Close:** Save explained layout snippets, checks, and the Git checkpoint.
 
 ### Day 4 — responsive styling and tokens
 - [ ] **Build:** Add flexible sizing, a narrow-screen layout, typography, and initial CSS custom properties. Learn units, media queries, inheritance, cascade, and specificity.

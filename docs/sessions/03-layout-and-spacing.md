@@ -69,4 +69,4 @@ The saved HTML and CSS were formatted with Cursor's Format Document command. The
 
 ## Git checkpoint and next step
 
-The Day 3 commit and push are pending at the time of this note. Review the source and documentation diff, save the layout checkpoint, and push it to `origin/main`. Then begin Day 4 with responsive sizing and typography.
+The layout and documentation were saved in the `Build layout and spacing` commit and pushed to `origin/main`. Day 3 is complete. Begin Day 4 with responsive sizing and typography.
