@@ -21,10 +21,10 @@ On a partial day, document the actual stopping point. Keep unfinished work clear
 
 ## Current progress
 
-- Next: **Day 4 — close the responsive styling session**
-- Status: Day 4's flexible container, responsive Grid, typography, overflow diagnosis, cascade inspection, and token prediction are verified. Documentation review and the Git checkpoint remain.
-- Last completed day: Day 3.
-- Resume at: Review the Day 4 documentation and diff, then commit and push the responsive styling checkpoint.
+- Next: **Day 5 — first live color control**
+- Status: Day 4's responsive layout, typography, debugging practice, documentation, local checkpoint, and GitHub push are verified.
+- Last completed day: Day 4.
+- Resume at: Connect the primary color input to a preview CSS variable using a small explained JavaScript event handler.
 - Blockers / concepts to revisit: A local development server and starting/stopping its process remain to be practiced when needed.
 
 Update this block at the end of each sitting. Record actual dates inside session notes; leave these day numbers unchanged.
@@ -63,7 +63,7 @@ Schedule: **daily at 2:00 PM, Asia/Kolkata (IST)**, in the existing learning tas
 ### Day 4 — responsive styling and tokens
 - [x] **Build:** Add flexible sizing, a narrow-screen layout, typography, and initial CSS custom properties. Learn units, media queries, inheritance, cascade, and specificity.
 - [x] **Practice:** Fix deliberate overflow and an overridden rule using browser Styles; predict which elements change when a spacing token changes.
-- [ ] **Close:** Record the diagnosis and token explanations; commit/push.
+- [x] **Close:** Record the diagnosis and token explanations; commit/push.
 
 ### Day 5 — first live color control
 - [ ] **Build:** Connect a labeled color input to a preview CSS variable. Learn variables, values, DOM selection, functions, parameters, and events.

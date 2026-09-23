@@ -52,4 +52,4 @@ For the token-impact check, `--space-medium` was temporarily changed from 32px t
 
 ## Git checkpoint and next step
 
-The Day 4 documentation and Git checkpoint are pending at the time of this note. Review the source and documentation diff, commit and push the responsive styling checkpoint, then begin Day 5 by connecting the primary color input to visible behavior with JavaScript.
+The responsive source and documentation were saved in the `Build responsive token interface` commit and pushed to `origin/main`. Day 4 is complete. Begin Day 5 by connecting the primary color input to visible behavior with JavaScript.
